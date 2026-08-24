@@ -1,0 +1,25 @@
+{
+  "name": "auraful-slackbot",
+  "version": "1.0.0",
+  "description": "Very auraful slack bot (for stardance)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pixeleyesd/auraful-slackbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pixeleyesd/auraful-slackbot/issues"
+  },
+  "homepage": "https://github.com/Pixeleyesd/auraful-slackbot#readme",
+  "dependencies": {
+    "@slack/bolt": "^5.0.0",
+    "axios": "^1.19.0",
+    "dotenv": "^17.4.2"
+  }
+}
