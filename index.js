@@ -48,8 +48,9 @@ app.command("/auraful-help", async ({ ack, respond }) => {
   await respond({
     text:
 `Available Commands:
-/auraful-ping - Check bot latency
-/auraful-catfact - Get a cat fact`
+/auraful-ping - Check the auraful bot latency
+/auraful-catfact - Get an auraful cat fact
+/auraful-joke - Get an auraful joke`
   });
 });
 
